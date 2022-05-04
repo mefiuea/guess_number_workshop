@@ -22,3 +22,9 @@ Workshop includes 6 games:
 - Compare element (number) from user list with numbers in random list. If any number from user list match to number in 
 random list increase counter 1 time
 
+
+### Number guessing game 2
+
+- This application get one fixed number from user
+- In next steps computer is trying to guess user number
+- User needs to answer to computer 'too small, too big, you win' based on computer guess
