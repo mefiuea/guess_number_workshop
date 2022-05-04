@@ -1,4 +1,5 @@
 #Workshop: Number games.
+Simple console applications to practice the Python language. Additionally, used Flask library.
 
 Workshop includes 6 games:
 1. Number guessing game 1,
