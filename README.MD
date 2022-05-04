@@ -33,3 +33,11 @@ random list increase counter 1 time
 ### Number guessing game 3
 
 - This is the same application as 'Number guessing game 2', but Flask library is used
+
+
+### Dice
+
+- RPG dice roll simulation
+- function takes the specified character code as input: xDy+z
+  (x - number of dice rolls; if we roll once, this parameter is negligible, y - the type of dice to use (e.g. D6, D10), 
+  z -  the number to add (or subtract) to the result of the throws (optional))
