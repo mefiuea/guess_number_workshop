@@ -41,3 +41,14 @@ random list increase counter 1 time
 - function takes the specified character code as input: xDy+z
   (x - number of dice rolls; if we roll once, this parameter is negligible, y - the type of dice to use (e.g. D6, D10), 
   z -  the number to add (or subtract) to the result of the throws (optional))
+
+
+## 2001
+
+- A game of which player (user/computer) achieves a score greater than 2001
+- In his turn, a player rolls 2 dice (standard hex dice) (The simulation of throwing these dice is imported from an earlier 
+  game - 'Dice')
+- The number of dots thrown is added to the total score
+- Starting on the second turn:
+  - if the player rolls a 7, he divides his number of points by this value discarding the fractional part,
+  - if he throws 11, multiplies his current number of points by that value.

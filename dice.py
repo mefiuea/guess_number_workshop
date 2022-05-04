@@ -49,10 +49,13 @@ def dice_generator(str_object):
 
     if mark == '+':
         print(f'Your score {sum} + {int(extra_number)} = {sum + int(extra_number)}')
+        return sum + int(extra_number)
     elif mark == '-':
         print(f'Your score {sum} - {int(extra_number)} = {sum - int(extra_number)}')
+        return sum - int(extra_number)
     else:
         print(f'Your score {sum}')
+        return sum
 
 
 if __name__ == '__main__':
