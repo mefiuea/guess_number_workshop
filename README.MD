@@ -34,6 +34,11 @@ random list increase counter 1 time
 ### Number guessing game 3
 
 - This is the same application as 'Number guessing game 2', but Flask library is used
+- To run this game in web browser:
+```
+source env/.env-default
+```
+open browser at: http://127.0.0.1:5000
 
 
 ### Dice
